@@ -3,19 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>fr.arpinum</groupId>
-    <artifactId>TennisJava</artifactId>
+    <artifactId>Tennis-Kata-Java</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Un kata</name>
     <url>http://www.arpinum.fr</url>
 
     <dependencies>
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>14.0</version>
-        </dependency>
         <dependency>
             <groupId>fr.arpinum</groupId>
             <artifactId>cocoritest</artifactId>
@@ -37,9 +31,9 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <configuration>
-                        <compilerVersion>1.6</compilerVersion>
-                        <source>1.6</source>
-                        <target>1.6</target>
+                        <compilerVersion>1.7</compilerVersion>
+                        <source>1.7</source>
+                        <target>1.7</target>
                         <encoding>UTF-8</encoding>
                     </configuration>
                 </plugin>
